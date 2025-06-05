@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: JobOfferData
+  commentId: N:JobOfferData
+  id: JobOfferData
+  children:
+  - JobOfferData.MockData
+  langs:
+  - csharp
+  - vb
+  name: JobOfferData
+  nameWithType: JobOfferData
+  fullName: JobOfferData
+  type: Namespace
+  assemblies:
+  - JobOfferTests
+references:
+- uid: JobOfferData.MockData
+  commentId: T:JobOfferData.MockData
+  href: JobOfferData.MockData.html
+  name: MockData
+  nameWithType: MockData
+  fullName: JobOfferData.MockData

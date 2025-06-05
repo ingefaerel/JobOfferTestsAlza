@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: JobOfferTests
+  commentId: N:JobOfferTests
+  id: JobOfferTests
+  children:
+  - JobOfferTests.JobOfferTests
+  langs:
+  - csharp
+  - vb
+  name: JobOfferTests
+  nameWithType: JobOfferTests
+  fullName: JobOfferTests
+  type: Namespace
+  assemblies:
+  - JobOfferTests
+references:
+- uid: JobOfferTests.JobOfferTests
+  commentId: T:JobOfferTests.JobOfferTests
+  href: JobOfferTests.JobOfferTests.html
+  name: JobOfferTests
+  nameWithType: JobOfferTests
+  fullName: JobOfferTests.JobOfferTests

@@ -1,0 +1,57 @@
+### YamlMime:TableOfContent
+items:
+- uid: JobOfferData
+  name: JobOfferData
+  type: Namespace
+  items:
+  - uid: JobOfferData.MockData
+    name: MockData
+    type: Class
+- uid: JobOfferDataClasses
+  name: JobOfferDataClasses
+  type: Namespace
+  items:
+  - uid: JobOfferDataClasses.Department
+    name: Department
+    type: Class
+  - uid: JobOfferDataClasses.ExecutiveUserProfile
+    name: ExecutiveUserProfile
+    type: Class
+  - uid: JobOfferDataClasses.FirstPage
+    name: FirstPage
+    type: Class
+  - uid: JobOfferDataClasses.Hreflang
+    name: Hreflang
+    type: Class
+  - uid: JobOfferDataClasses.JobDescriptionItem
+    name: JobDescriptionItem
+    type: Class
+  - uid: JobOfferDataClasses.JobDescriptionPage
+    name: JobDescriptionPage
+    type: Class
+  - uid: JobOfferDataClasses.JobPosition
+    name: JobPosition
+    type: Class
+  - uid: JobOfferDataClasses.Meta
+    name: Meta
+    type: Class
+  - uid: JobOfferDataClasses.MetaContainer
+    name: MetaContainer
+    type: Class
+  - uid: JobOfferDataClasses.Paging
+    name: Paging
+    type: Class
+  - uid: JobOfferDataClasses.PlaceOfEmployment
+    name: PlaceOfEmployment
+    type: Class
+  - uid: JobOfferDataClasses.User
+    name: User
+    type: Class
+- uid: JobOfferTests
+  name: JobOfferTests
+  type: Namespace
+  items:
+  - uid: JobOfferTests.JobOfferTests
+    name: JobOfferTests
+    type: Class
+memberLayout: SamePage

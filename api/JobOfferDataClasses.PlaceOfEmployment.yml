@@ -1,0 +1,652 @@
+### YamlMime:ManagedReference
+items:
+- uid: JobOfferDataClasses.PlaceOfEmployment
+  commentId: T:JobOfferDataClasses.PlaceOfEmployment
+  id: PlaceOfEmployment
+  parent: JobOfferDataClasses
+  children:
+  - JobOfferDataClasses.PlaceOfEmployment.City
+  - JobOfferDataClasses.PlaceOfEmployment.Description
+  - JobOfferDataClasses.PlaceOfEmployment.Latitude
+  - JobOfferDataClasses.PlaceOfEmployment.Longitude
+  - JobOfferDataClasses.PlaceOfEmployment.Name
+  - JobOfferDataClasses.PlaceOfEmployment.PostalCode
+  - JobOfferDataClasses.PlaceOfEmployment.State
+  - JobOfferDataClasses.PlaceOfEmployment.StreetName
+  langs:
+  - csharp
+  - vb
+  name: PlaceOfEmployment
+  nameWithType: PlaceOfEmployment
+  fullName: JobOfferDataClasses.PlaceOfEmployment
+  type: Class
+  source:
+    id: PlaceOfEmployment
+    path: C:\Users\Praha\source\repos\JobOfferTests\JobOfferTests\JobPosition.cs
+    startLine: 87
+  assemblies:
+  - JobOfferTests
+  namespace: JobOfferDataClasses
+  syntax:
+    content: public class PlaceOfEmployment
+    content.vb: Public Class PlaceOfEmployment
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: JobOfferDataClasses.PlaceOfEmployment.Name
+  commentId: P:JobOfferDataClasses.PlaceOfEmployment.Name
+  id: Name
+  parent: JobOfferDataClasses.PlaceOfEmployment
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PlaceOfEmployment.Name
+  fullName: JobOfferDataClasses.PlaceOfEmployment.Name
+  type: Property
+  source:
+    id: Name
+    path: C:\Users\Praha\source\repos\JobOfferTests\JobOfferTests\JobPosition.cs
+    startLine: 89
+  assemblies:
+  - JobOfferTests
+  namespace: JobOfferDataClasses
+  syntax:
+    content: >-
+      [JsonPropertyName("name")]
+
+      public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("name")>
+
+      Public Property Name As String
+  overload: JobOfferDataClasses.PlaceOfEmployment.Name*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: name
+- uid: JobOfferDataClasses.PlaceOfEmployment.Description
+  commentId: P:JobOfferDataClasses.PlaceOfEmployment.Description
+  id: Description
+  parent: JobOfferDataClasses.PlaceOfEmployment
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: PlaceOfEmployment.Description
+  fullName: JobOfferDataClasses.PlaceOfEmployment.Description
+  type: Property
+  source:
+    id: Description
+    path: C:\Users\Praha\source\repos\JobOfferTests\JobOfferTests\JobPosition.cs
+    startLine: 92
+  assemblies:
+  - JobOfferTests
+  namespace: JobOfferDataClasses
+  syntax:
+    content: >-
+      [JsonPropertyName("description")]
+
+      public object Description { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: >-
+      <JsonPropertyName("description")>
+
+      Public Property Description As Object
+  overload: JobOfferDataClasses.PlaceOfEmployment.Description*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: description
+- uid: JobOfferDataClasses.PlaceOfEmployment.State
+  commentId: P:JobOfferDataClasses.PlaceOfEmployment.State
+  id: State
+  parent: JobOfferDataClasses.PlaceOfEmployment
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: PlaceOfEmployment.State
+  fullName: JobOfferDataClasses.PlaceOfEmployment.State
+  type: Property
+  source:
+    id: State
+    path: C:\Users\Praha\source\repos\JobOfferTests\JobOfferTests\JobPosition.cs
+    startLine: 95
+  assemblies:
+  - JobOfferTests
+  namespace: JobOfferDataClasses
+  syntax:
+    content: >-
+      [JsonPropertyName("state")]
+
+      public string State { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("state")>
+
+      Public Property State As String
+  overload: JobOfferDataClasses.PlaceOfEmployment.State*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: state
+- uid: JobOfferDataClasses.PlaceOfEmployment.City
+  commentId: P:JobOfferDataClasses.PlaceOfEmployment.City
+  id: City
+  parent: JobOfferDataClasses.PlaceOfEmployment
+  langs:
+  - csharp
+  - vb
+  name: City
+  nameWithType: PlaceOfEmployment.City
+  fullName: JobOfferDataClasses.PlaceOfEmployment.City
+  type: Property
+  source:
+    id: City
+    path: C:\Users\Praha\source\repos\JobOfferTests\JobOfferTests\JobPosition.cs
+    startLine: 98
+  assemblies:
+  - JobOfferTests
+  namespace: JobOfferDataClasses
+  syntax:
+    content: >-
+      [JsonPropertyName("city")]
+
+      public string City { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("city")>
+
+      Public Property City As String
+  overload: JobOfferDataClasses.PlaceOfEmployment.City*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: city
+- uid: JobOfferDataClasses.PlaceOfEmployment.StreetName
+  commentId: P:JobOfferDataClasses.PlaceOfEmployment.StreetName
+  id: StreetName
+  parent: JobOfferDataClasses.PlaceOfEmployment
+  langs:
+  - csharp
+  - vb
+  name: StreetName
+  nameWithType: PlaceOfEmployment.StreetName
+  fullName: JobOfferDataClasses.PlaceOfEmployment.StreetName
+  type: Property
+  source:
+    id: StreetName
+    path: C:\Users\Praha\source\repos\JobOfferTests\JobOfferTests\JobPosition.cs
+    startLine: 101
+  assemblies:
+  - JobOfferTests
+  namespace: JobOfferDataClasses
+  syntax:
+    content: >-
+      [JsonPropertyName("streetName")]
+
+      public string StreetName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("streetName")>
+
+      Public Property StreetName As String
+  overload: JobOfferDataClasses.PlaceOfEmployment.StreetName*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: streetName
+- uid: JobOfferDataClasses.PlaceOfEmployment.PostalCode
+  commentId: P:JobOfferDataClasses.PlaceOfEmployment.PostalCode
+  id: PostalCode
+  parent: JobOfferDataClasses.PlaceOfEmployment
+  langs:
+  - csharp
+  - vb
+  name: PostalCode
+  nameWithType: PlaceOfEmployment.PostalCode
+  fullName: JobOfferDataClasses.PlaceOfEmployment.PostalCode
+  type: Property
+  source:
+    id: PostalCode
+    path: C:\Users\Praha\source\repos\JobOfferTests\JobOfferTests\JobPosition.cs
+    startLine: 104
+  assemblies:
+  - JobOfferTests
+  namespace: JobOfferDataClasses
+  syntax:
+    content: >-
+      [JsonPropertyName("postalCode")]
+
+      public string PostalCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("postalCode")>
+
+      Public Property PostalCode As String
+  overload: JobOfferDataClasses.PlaceOfEmployment.PostalCode*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: postalCode
+- uid: JobOfferDataClasses.PlaceOfEmployment.Latitude
+  commentId: P:JobOfferDataClasses.PlaceOfEmployment.Latitude
+  id: Latitude
+  parent: JobOfferDataClasses.PlaceOfEmployment
+  langs:
+  - csharp
+  - vb
+  name: Latitude
+  nameWithType: PlaceOfEmployment.Latitude
+  fullName: JobOfferDataClasses.PlaceOfEmployment.Latitude
+  type: Property
+  source:
+    id: Latitude
+    path: C:\Users\Praha\source\repos\JobOfferTests\JobOfferTests\JobPosition.cs
+    startLine: 107
+  assemblies:
+  - JobOfferTests
+  namespace: JobOfferDataClasses
+  syntax:
+    content: >-
+      [JsonPropertyName("latitude")]
+
+      public double Latitude { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <JsonPropertyName("latitude")>
+
+      Public Property Latitude As Double
+  overload: JobOfferDataClasses.PlaceOfEmployment.Latitude*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: latitude
+- uid: JobOfferDataClasses.PlaceOfEmployment.Longitude
+  commentId: P:JobOfferDataClasses.PlaceOfEmployment.Longitude
+  id: Longitude
+  parent: JobOfferDataClasses.PlaceOfEmployment
+  langs:
+  - csharp
+  - vb
+  name: Longitude
+  nameWithType: PlaceOfEmployment.Longitude
+  fullName: JobOfferDataClasses.PlaceOfEmployment.Longitude
+  type: Property
+  source:
+    id: Longitude
+    path: C:\Users\Praha\source\repos\JobOfferTests\JobOfferTests\JobPosition.cs
+    startLine: 110
+  assemblies:
+  - JobOfferTests
+  namespace: JobOfferDataClasses
+  syntax:
+    content: >-
+      [JsonPropertyName("longitude")]
+
+      public double Longitude { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <JsonPropertyName("longitude")>
+
+      Public Property Longitude As Double
+  overload: JobOfferDataClasses.PlaceOfEmployment.Longitude*
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: longitude
+references:
+- uid: JobOfferDataClasses
+  commentId: N:JobOfferDataClasses
+  href: JobOfferDataClasses.html
+  name: JobOfferDataClasses
+  nameWithType: JobOfferDataClasses
+  fullName: JobOfferDataClasses
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: JobOfferDataClasses.PlaceOfEmployment.Name*
+  commentId: Overload:JobOfferDataClasses.PlaceOfEmployment.Name
+  href: JobOfferDataClasses.PlaceOfEmployment.html#JobOfferDataClasses_PlaceOfEmployment_Name
+  name: Name
+  nameWithType: PlaceOfEmployment.Name
+  fullName: JobOfferDataClasses.PlaceOfEmployment.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: JobOfferDataClasses.PlaceOfEmployment.Description*
+  commentId: Overload:JobOfferDataClasses.PlaceOfEmployment.Description
+  href: JobOfferDataClasses.PlaceOfEmployment.html#JobOfferDataClasses_PlaceOfEmployment_Description
+  name: Description
+  nameWithType: PlaceOfEmployment.Description
+  fullName: JobOfferDataClasses.PlaceOfEmployment.Description
+- uid: JobOfferDataClasses.PlaceOfEmployment.State*
+  commentId: Overload:JobOfferDataClasses.PlaceOfEmployment.State
+  href: JobOfferDataClasses.PlaceOfEmployment.html#JobOfferDataClasses_PlaceOfEmployment_State
+  name: State
+  nameWithType: PlaceOfEmployment.State
+  fullName: JobOfferDataClasses.PlaceOfEmployment.State
+- uid: JobOfferDataClasses.PlaceOfEmployment.City*
+  commentId: Overload:JobOfferDataClasses.PlaceOfEmployment.City
+  href: JobOfferDataClasses.PlaceOfEmployment.html#JobOfferDataClasses_PlaceOfEmployment_City
+  name: City
+  nameWithType: PlaceOfEmployment.City
+  fullName: JobOfferDataClasses.PlaceOfEmployment.City
+- uid: JobOfferDataClasses.PlaceOfEmployment.StreetName*
+  commentId: Overload:JobOfferDataClasses.PlaceOfEmployment.StreetName
+  href: JobOfferDataClasses.PlaceOfEmployment.html#JobOfferDataClasses_PlaceOfEmployment_StreetName
+  name: StreetName
+  nameWithType: PlaceOfEmployment.StreetName
+  fullName: JobOfferDataClasses.PlaceOfEmployment.StreetName
+- uid: JobOfferDataClasses.PlaceOfEmployment.PostalCode*
+  commentId: Overload:JobOfferDataClasses.PlaceOfEmployment.PostalCode
+  href: JobOfferDataClasses.PlaceOfEmployment.html#JobOfferDataClasses_PlaceOfEmployment_PostalCode
+  name: PostalCode
+  nameWithType: PlaceOfEmployment.PostalCode
+  fullName: JobOfferDataClasses.PlaceOfEmployment.PostalCode
+- uid: JobOfferDataClasses.PlaceOfEmployment.Latitude*
+  commentId: Overload:JobOfferDataClasses.PlaceOfEmployment.Latitude
+  href: JobOfferDataClasses.PlaceOfEmployment.html#JobOfferDataClasses_PlaceOfEmployment_Latitude
+  name: Latitude
+  nameWithType: PlaceOfEmployment.Latitude
+  fullName: JobOfferDataClasses.PlaceOfEmployment.Latitude
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: JobOfferDataClasses.PlaceOfEmployment.Longitude*
+  commentId: Overload:JobOfferDataClasses.PlaceOfEmployment.Longitude
+  href: JobOfferDataClasses.PlaceOfEmployment.html#JobOfferDataClasses_PlaceOfEmployment_Longitude
+  name: Longitude
+  nameWithType: PlaceOfEmployment.Longitude
+  fullName: JobOfferDataClasses.PlaceOfEmployment.Longitude

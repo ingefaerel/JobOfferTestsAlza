@@ -1,0 +1,326 @@
+{
+  "source_base_path": "C:/Users/Praha/source/repos/JobOfferTests",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferData.MockData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferData.MockData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferData.MockData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.Department.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.Department.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses.Department",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.ExecutiveUserProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.ExecutiveUserProfile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses.ExecutiveUserProfile",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.FirstPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.FirstPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses.FirstPage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.Hreflang.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.Hreflang.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses.Hreflang",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.JobDescriptionItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.JobDescriptionItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses.JobDescriptionItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.JobDescriptionPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.JobDescriptionPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses.JobDescriptionPage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.JobPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.JobPosition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses.JobPosition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.Meta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.Meta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses.Meta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.MetaContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.MetaContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses.MetaContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.Paging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.Paging.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses.Paging",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.PlaceOfEmployment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.PlaceOfEmployment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses.PlaceOfEmployment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.User.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses.User",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferDataClasses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferDataClasses.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferDataClasses",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferTests.JobOfferTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferTests.JobOfferTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferTests.JobOfferTests",
+      "Summary": "<p sourcefile=\"api/JobOfferTests.JobOfferTests.yml\" sourcestartlinenumber=\"1\">Tests for job offers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JobOfferTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JobOfferTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JobOfferTests",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JobOfferTests</name>
+    </assembly>
+    <members>
+        <member name="T:JobOfferTests.JobOfferTests">
+            <summary>
+            Tests for job offers.
+            </summary>
+        </member>
+        <member name="M:JobOfferTests.JobOfferTests.Setup">
+            <summary>
+            Setup of test class
+            </summary>
+        </member>
+        <member name="M:JobOfferTests.JobOfferTests.All_Fields_Are_Present">
+            <summary>
+            Checking all the fields are present test
+            </summary>
+        </member>
+        <member name="M:JobOfferTests.JobOfferTests.Description_IsFilled">
+            <summary>
+            Checking description is filled
+            </summary>
+        </member>
+        <member name="M:JobOfferTests.JobOfferTests.IsSuitableForStudents">
+            <summary>
+            Checking if suitable for students
+            </summary>
+        </member>
+        <member name="M:JobOfferTests.JobOfferTests.Place_of_employment_is_correct">
+            <summary>
+            Checking place of employment is correct
+            </summary>
+        </member>
+        <member name="M:JobOfferTests.JobOfferTests.Executive_Info_IsValid">
+            <summary>
+            Checking executive info isValid
+            </summary>
+        </member>
+        <member name="M:JobOfferTests.JobOfferTests.InvalidSlug_Returns404">
+            <summary>
+            Checking 404 response on invalid job position url
+            </summary>
+        </member>
+    </members>
+</doc>
